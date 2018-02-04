@@ -1,0 +1,31 @@
+{
+  "name": "switter",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "lerna bootstrap",
+    "lint": "npx eslint .",
+    "start:bot": "(cd packages/switter-bot && yarn start)",
+    "start:client": "(cd packages/switter-client && yarn start)",
+    "start:service": "(cd packages/switter-service && yarn start)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zouxuoz/switter.git"
+  },
+  "author": "zouxuoz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zouxuoz/switter/issues"
+  },
+  "homepage": "https://github.com/zouxuoz/switter#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.6.1",
+    "lerna": "^2.8.0"
+  }
+}

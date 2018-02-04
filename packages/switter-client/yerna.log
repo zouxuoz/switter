@@ -1,0 +1,18 @@
+2018-02-02T13:03:09.016Z - debug: yerna: (yarn wrapper) child pid 10980 exited with code 0 and signal null
+2018-02-02T13:03:09.017Z - debug: yerna: removing existing symlink at /Users/zouxuoz/git/switter/packages/switter-bot/node_modules/switter-protobuf
+2018-02-02T13:03:09.018Z - debug: yerna: symlinking /Users/zouxuoz/git/switter/packages/switter-bot/node_modules/switter-protobuf to /Users/zouxuoz/git/switter/packages/switter-protobuf
+2018-02-02T13:03:09.018Z - debug: yerna: nothing in the way of a symlink at /Users/zouxuoz/git/switter/packages/switter-client/node_modules/switter-actions
+2018-02-02T13:03:09.018Z - debug: yerna: symlinking /Users/zouxuoz/git/switter/packages/switter-client/node_modules/switter-actions to /Users/zouxuoz/git/switter/packages/switter-actions
+2018-02-02T13:03:09.018Z - debug: yerna: removing existing symlink at /Users/zouxuoz/git/switter/packages/switter-service/node_modules/switter-actions
+2018-02-02T13:03:09.018Z - debug: yerna: symlinking /Users/zouxuoz/git/switter/packages/switter-service/node_modules/switter-actions to /Users/zouxuoz/git/switter/packages/switter-actions
+2018-02-02T13:03:09.019Z - debug: yerna: removing existing symlink at /Users/zouxuoz/git/switter/packages/switter-service/node_modules/switter-protobuf
+2018-02-02T13:03:09.019Z - debug: yerna: symlinking /Users/zouxuoz/git/switter/packages/switter-service/node_modules/switter-protobuf to /Users/zouxuoz/git/switter/packages/switter-protobuf
+2018-02-02T13:07:57.444Z - debug: yerna: (yarn wrapper) child pid 11172 exited with code 0 and signal null
+2018-02-02T13:07:57.447Z - debug: yerna: removing existing symlink at /Users/zouxuoz/git/switter/packages/switter-bot/node_modules/switter-protobuf
+2018-02-02T13:07:57.447Z - debug: yerna: symlinking /Users/zouxuoz/git/switter/packages/switter-bot/node_modules/switter-protobuf to /Users/zouxuoz/git/switter/packages/switter-protobuf
+2018-02-02T13:07:57.448Z - debug: yerna: nothing in the way of a symlink at /Users/zouxuoz/git/switter/packages/switter-client/node_modules/switter-actions
+2018-02-02T13:07:57.448Z - debug: yerna: symlinking /Users/zouxuoz/git/switter/packages/switter-client/node_modules/switter-actions to /Users/zouxuoz/git/switter/packages/switter-actions
+2018-02-02T13:07:57.448Z - debug: yerna: removing existing symlink at /Users/zouxuoz/git/switter/packages/switter-service/node_modules/switter-actions
+2018-02-02T13:07:57.448Z - debug: yerna: symlinking /Users/zouxuoz/git/switter/packages/switter-service/node_modules/switter-actions to /Users/zouxuoz/git/switter/packages/switter-actions
+2018-02-02T13:07:57.448Z - debug: yerna: removing existing symlink at /Users/zouxuoz/git/switter/packages/switter-service/node_modules/switter-protobuf
+2018-02-02T13:07:57.448Z - debug: yerna: symlinking /Users/zouxuoz/git/switter/packages/switter-service/node_modules/switter-protobuf to /Users/zouxuoz/git/switter/packages/switter-protobuf

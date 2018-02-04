@@ -1,0 +1,17 @@
+{
+  "name": "switter-bot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "watch": "eval $(cat ../../.env | sed 's/^/export /') && nodemon --exec node src/index.js",
+    "start": "eval $(cat ../../.env | sed 's/^/export /') && node src/index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "faker": "^4.1.0",
+    "switter-protobuf": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}

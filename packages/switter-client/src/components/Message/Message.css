@@ -1,0 +1,54 @@
+.Message {
+  display: flex;
+  color: rgba(0,0,0,.87);
+}
+
+.Message + .Message {
+  margin-top: 16px;
+}
+
+.Message-avatar {
+  min-width: 44px;
+  max-width: 44px;
+  min-height: 44px;
+  max-height: 44px;
+  background-color: #e8e8e8;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Message-avatarIcon {
+  width: 32px;
+  height: 32px;
+}
+
+.Message-avatar + .Message-content {
+  margin-left: 16px;
+}
+
+.Message-content {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  flex: 1;
+}
+
+.Message-title {
+  line-height: 44px;
+  height: 44px;
+  padding: 0 16px;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.Message-body {
+  word-wrap: break-word;
+  padding: 16px;
+  background-color: #fff;
+}
+
+.Message-user {
+  font-weight: 600;
+}

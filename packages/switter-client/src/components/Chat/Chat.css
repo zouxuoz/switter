@@ -1,0 +1,13 @@
+.Chat {
+  background-color: #fff;
+  border-radius: 4px;
+  display: flex;
+  flex: 1;
+  max-width: 960px;
+  padding: 32px;
+}
+
+.Chat-messages {
+  display: flex;
+  flex: 1;
+}
