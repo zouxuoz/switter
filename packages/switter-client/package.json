@@ -13,7 +13,7 @@
     "switter-actions": "^1.0.0"
   },
   "scripts": {
-    "start": "eval $(cat ../../.env | sed 's/^/export /') && react-scripts start",
+    "start": "eval $(cat ../../.env | sed 's/^/export /') && PORT=$SWITTER_CLIENT_PORT react-scripts start",
     "build": "eval $(cat ../../.env | sed 's/^/export /') && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
